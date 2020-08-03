@@ -18,46 +18,47 @@ Mince is a full-stack web application that pulls from over 5,000 existing recipe
 
 
 ## Mince Walkthrough Video
-<!-- [Mince Walkthrough](https://youtu.be/eMHFxcF2l08) -->
+[Mince Walkthrough](https://youtu.be/ZKes0aGDM6A)
 
 ## Technologies
-Ruby - version 2.6.1
-PostgreSQL - version 12.3
+JavaScript ES6
+
 HTML5 / CSS3
 
 ## Setup
-To run this project, install it locally by cloning the GitHub repository and type:
-```
-  
 
-```
+1. To run this project, please go to the [Mince Backend repo:](https://github.com/NyaradzoUBere/mince-backend)
+1. Run ~ lite-server in your front end directory
+1. [Click here!](http://localhost:3001)
+
 ## Code Examples
 
 ```
     function displayIngredientList(recipe) {
-    const $ul = document.createElement('ul');
-    $ul.className = 'ingredient_list';
-    
-    const $ingredients = recipe.ingredients.map(ingredientToElement);
+      const $ul = document.createElement('ul');
+      $ul.className = 'ingredient_list';
+      
+      const $ingredients = recipe.ingredients.map(ingredientToElement);
 
-    if (user_id) { $ingredients.forEach(addIngredientButton); }
-    
-    $ingredients.forEach($ingredient => {
-        $ul.append($ingredient);
-    });
-    
-    $main.append($ul);
-    return recipe;
+      if (user_id) { $ingredients.forEach(addIngredientButton); }
+      
+      $ingredients.forEach($ingredient => {
+          $ul.append($ingredient);
+      });
+      
+      $main.append($ul);
+
+      return recipe;
     }
 ```
 ```
     function displayHomeLink() {
-    const $a = document.createElement('a');
-    $a.href = `index.html?user_id=${user_id}`;
-    $a.textContent = 'Go to Homepage';
+      const $a = document.createElement('a');
+      $a.href = `index.html?user_id=${user_id}`;
+      $a.textContent = 'Go to Homepage';
 
-    const $ul = document.querySelector('ul.nav-bar');
-    $ul.append($a); 
+      const $ul = document.querySelector('ul.nav-bar');
+      $ul.append($a); 
     }
 ```
 ## Mince Features
