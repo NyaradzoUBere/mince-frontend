@@ -4,12 +4,12 @@
 ## Table of Contents
 * [About](#about-mince)
 * [Video](#mince-walkthrough-video)
-* [Techonologies](#technologies)
+* [Technologies](#technologies)
 * [Setup](#setup)
 * [Code Examples](#code-examples)
 * [Features](#mince-features)
 * [Status](#status)
-* [Why mince](#why-mince)
+* [Why Mince](#why-mince)
 * [Contact](#contact)
 * [License](#license)
 
@@ -28,8 +28,8 @@ HTML5 / CSS3
 ## Setup
 
 1. To run this project, please go to the [Mince Backend repo:](https://github.com/NyaradzoUBere/mince-backend)
-1. Run ~ lite-server in your front end directory
-1. [Click here!](http://localhost:3001)
+2. Run ~ lite-server in your front end directory
+3. [Click here!](http://localhost:3001)
 
 ## Code Examples
 
